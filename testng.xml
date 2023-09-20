@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/hipl/IdeaProjects/Test_NG_project">
+        <classes>
+            <class name="Test_NG_test.Admintest">
+                <methods>
+                    <include name="adminpage"/>
+                </methods>
+            </class>
+            <class name="Test_NG_test.Dashboard_test">
+                <methods>
+                    <include name="dashboard"/>
+                </methods>
+            </class>
+            <class name="Test_NG_test.Loginpage_test">
+                <methods>
+                    <include name="userlogintest"/>
+                </methods>
+            </class>
+            <class name="Test_NG_test.Pim_test">
+                <methods>
+                    <include name="pim"/>
+                </methods>
+            </class>
+            <class name="Test_NG_test.Recuirement_test">
+                <methods>
+                    <include name="recuirement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
